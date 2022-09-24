@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,300;0,400;0,700;1,600&family=Qwitcher+Grypen:wght@700&family=Rubik+Dirt&family=Rubik+Distressed&family=Satisfy&family=Staatliches&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+    height: 100vh;  
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.page1{
+    background-color: white;
+    max-width: 1000px;
+    height: 753px;
+    padding: 50px 150px 150px 150px; 
+    
+}
+.edu{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+}
+.f-row{
+    margin-bottom: 10px;
+}
+.row{
+    margin: 25px 0px;
+}
+.btn-back{
+    margin-right: 20px;
+    width: 100px;
+    height:35px;
+    color:#FFFFFF;
+    background: #E43452;
+    border:none;
+}
+.btn-skip{
+    margin-right: 20px;
+    width: 100px;
+    height:35px;
+    color:#000000;
+    background: #FFFFFF;
+    border:solid 1px;
+}
+.btn-save{
+    margin-left: 20px;
+    width: 150px;
+    height:35px;
+    color:#FFFFFF;
+    background: #E43452;
+    border:none;
+}
+.more{
+    color:rgb(255,5,72);
+}
+.btn{
+    border: none;
+}
+/* .form-select:focus{
+    box-shadow: none;
+    color: black;
+    background-color: #FFFFFF;
+    outline: 0;
+    border-color: inherit;
+}
+.form-control{
+    box-shadow: none;
+    color: black;
+    background-color: #FFFFFF;
+    outline: 0;
+    border-color: inherit;
+} */
+
+/*  */
+
+/*  */
+
+@media (max-width: 765px){
+.page1{
+    padding: 20px 15px 50px 15px;
+    }
+.row{
+    margin: 20px 0px 0px 0px;
+    }
+.sec-row{
+    margin-bottom:20px ;
+}
+}
+@media (max-width:580px){
+    .page1{
+        padding: 20px 15px 50px 15px;
+        }
+    .row{
+        margin: 20px 0px;
+        }
+    .sec-row{
+        margin-bottom:20px ;
+    } 
+    /* .btn{
+        display:inline;
+    }  */
+    .btn-back{
+        margin-right: 10px;
+        width: 510px;
+        height:35px;
+        color:#FFFFFF;
+        background: #E43452;
+        border:none;
+    }
+    .btn-skip{
+        margin-right: 5px;
+        width: 510px;
+        height:35px;
+        color:#000000;
+        background: #FFFFFF;
+        border:solid 1px;
+    }
+    .btn-save{
+        display:inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        width: 500px;
+        height:35px;
+        color:#FFFFFF;
+        background: #E43452;
+        border:none;
+    }
+}
