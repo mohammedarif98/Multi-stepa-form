@@ -60,20 +60,20 @@ body{
 .btn{
     border: none;
 }
-/* .form-select:focus{
+.form-select:focus{
     box-shadow: none;
     color: black;
     background-color: #FFFFFF;
     outline: 0;
     border-color: inherit;
 }
-.form-control{
+.form-control:focus{
     box-shadow: none;
     color: black;
     background-color: #FFFFFF;
     outline: 0;
     border-color: inherit;
-} */
+}
 
 /*  */
 
